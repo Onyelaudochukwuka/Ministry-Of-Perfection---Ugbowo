@@ -1,1 +1,0 @@
-# Ministry-Of-Perfection---Ugbowo
