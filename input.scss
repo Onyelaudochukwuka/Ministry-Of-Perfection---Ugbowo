@@ -1,0 +1,132 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+.btn {
+  @apply rounded-xl py-3 px-6 shadow-lg transition-all duration-300 ;
+}
+.btn-purple {
+  @apply bg-color1/80 text-white shadow-color1/50;
+}
+
+.btn-dark {
+  --tw-bg-opacity: 1;
+  background-color: rgb(36 42 69 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+
+  .active {
+    --tw-text-opacity: 1;
+    color: rgb(168 85 247 / var(--tw-text-opacity));
+  }
+  
+  #navlinks{
+    -webkit-animation : translate .5s;
+            animation : translate .5s;
+  }
+  
+  @-webkit-keyframes translate {
+    0%{
+      transform: translateY(-100%);
+    }
+  
+    100%{
+      tranform:translateY(0%);
+    }
+  }
+  
+  @keyframes translate {
+    0%{
+      transform: translateY(-100%);
+    }
+  
+    100%{
+      tranform:translateY(0%);
+    }
+  }
+  
+  svg{
+    width: 3rem;
+    height: 3rem;
+  }
+  
+  #part{
+    gap: 35%;
+  }
+  
+  @media (max-width: 640px){
+    #part{
+      gap: 15%;
+    }
+  }
+  /*.swiper {
+    width: 100%;
+    /*height: 100%;
+  }*/
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  .slide {
+    clear:both;
+    width:-webkit-fit-content;
+    width:-moz-fit-content;
+    width:fit-content;
+    height:0px;
+    overflow: hidden;
+    display: block;
+    transition: height .4s ease;
+  }
+  
+  .slide li:not(:last-child),.slide li:not(:first-child) {
+    padding : 10px;
+  }
+  
+  #touch {
+    position: absolute;
+    opacity: 0;
+    height: 0px;
+  }
+  
+  #touch:checked + .slide ,#services:hover > .slide{
+    height: auto;
+    margin-left: -0.75rem;
+    margin-right: -0.75rem;
+  }
+  
+  @media (min-width: 1024px) {
+    #touch:checked + .slide {
+      margin-top: 0.75rem;
+      margin-bottom: 0.75rem;
+    }
+  }
+  .active {
+    color: rgb(168 85 247) important;
+  }
+  
+  .bgImg{
+    background-position: 50% 20%;
+    text-shadow: 2px 2px 2px white;
+  }
+  .sel{
+  user-select:none;
+  -moz-user-select: none;
+  }
