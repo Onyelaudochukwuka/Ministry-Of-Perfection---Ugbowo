@@ -1,5 +1,5 @@
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: ["./*.{html,js}"],
   theme: {
     extend: {
       colors :{
@@ -15,7 +15,7 @@ module.exports = {
       }
     },
     backgroundImage: {
-      "img" : "url('/Resources/IMG-20220503-WA0106.jpg')"
+      "img" : "url('./Resources/IMG-20220503-WA0106.jpg')"
     },
     fontFamily  : {
       "Poppins": ['"poppins",ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"'],
