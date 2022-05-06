@@ -1,4 +1,7 @@
 //jshint esversion:6
+$(window).on('load', () => {
+        $('.bdy').fadeOut('slow');
+  });
 let hamburger = document.querySelector('#hamburger'),
      navlinks = document.querySelector('#navlinks'),
      line = hamburger.querySelector('#line'),
@@ -53,14 +56,4 @@ const sections = document.querySelectorAll('section'),
                     line2.classList.add('mt-2'));
                 });
         });
-        // let container = document.querySelector('#mission');
-        // let cardSec = document.querySelectorAll('#contain #child');
-        // console.log(cardSec);
-        // window.addEventListener('scroll',()=>{
-        //         let current = '';
-        //         cardSec.forEach(section => {
-        //                 const sectionTop = section.offsetTop;
-        //                 const sectionHeight = section.clientHeight;
-        //                 ((sectionTop-sectionHeight)>=scrollY) ? container.classList.toggle('bg-color1') : true;
-        //         });
-        // });
+      
