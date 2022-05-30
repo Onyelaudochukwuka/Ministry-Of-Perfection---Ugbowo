@@ -646,7 +646,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: auto;
   margin-bottom: auto;
 }
+.mt-auto{
+  margin-top: auto;
 
+}
 .my-6 {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
