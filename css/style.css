@@ -2799,8 +2799,8 @@ svg{
 }
 
 .bgImg{
-  background-position: 50% 0;
-  background-size: 100%;
+  /* background-position: 50% 0; */
+  background-size: 130%;
   text-shadow: 2px 2px 2px white;
 }
 
