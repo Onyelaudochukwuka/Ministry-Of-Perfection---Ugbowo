@@ -2800,7 +2800,7 @@ svg{
 
 .bgImg{
   background-position: 50% 0;
-  background-size: 50%;
+  background-size: 100%;
   text-shadow: 2px 2px 2px white;
 }
 
