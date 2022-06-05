@@ -2802,7 +2802,7 @@ svg{
 }
 
 .bgImg{
-  /* background-position: 50% 50%; */
+  background-position: 50% 0%;
   /* background-size:auto; */
   text-shadow: 2px 2px 2px white;
 }
