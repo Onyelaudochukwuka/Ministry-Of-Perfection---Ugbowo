@@ -2804,7 +2804,6 @@ svg{
 .bgImg{
   background-position: 50% 100px;
   background-size:auto;
-  background-attachment: fixed;
   text-shadow: 2px 2px 2px white;
 }
 
